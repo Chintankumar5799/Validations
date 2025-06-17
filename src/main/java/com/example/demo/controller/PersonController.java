@@ -41,7 +41,6 @@ public class PersonController {
 	@GetMapping("/")
 	public String greet() {
 		return "Hello...Chintan";
-//		throw new RuntimeException("Application is down for sometime");
 	}
 
 	@PostMapping("/validate")
